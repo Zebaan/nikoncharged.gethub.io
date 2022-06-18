@@ -1,4 +1,6 @@
-
+html{
+  text-align: centre;
+}
 body {
   background: url(https://images.pexels.com/photos/1595243/pexels-photo-1595243.jpeg?cs=srgb&dl=pexels-derice-jason-fahnkow-1595243.jpg&fm=jpg);
   border: 5px;
