@@ -1,6 +1,10 @@
+
 body {
   background: url(https://images.pexels.com/photos/1595243/pexels-photo-1595243.jpeg?cs=srgb&dl=pexels-derice-jason-fahnkow-1595243.jpg&fm=jpg);
-   background-size:600px;
+  border: 5px;
+  border-color: white;
+   background-size:cover;
+   background-size: 150%;
    background-position:top;
    color: white;
    text-align: center;
@@ -10,6 +14,24 @@ body {
 }
 .container {
  padding-bottom: center;
+}
+h1{
+  font-family:'Ultra', serif; 
+  opacity: 0.2;
+  font-size: 140px;
+ 
+}
+h2{
+font-family: 'Playfair Display SC', serif;
+opacity: 0.8;
+font-size:70px ;
+background-color: rgba(88, 88, 88, 0.29);
+}
+p{
+  font-size: 30px;
+}
+button {
+  transform: scale(2);
 }
 hr {
   display: block;
@@ -22,16 +44,22 @@ hr {
 }
 h3{
   font-family: 'Dancing Script', cursive;
+  font-size: 70px;
 }
-a:link {
+a{
   color: white;
   text-decoration: none;
   transition: transform 0.3s;
+ font-family: 'Lobster', cursive;
+ font-size: 50px;
 }
 a:visited {
   color: gray;
 }
 a:hover {
   color: #beccca;
-  transform: scale(1.5);
+  transform: scale(2);
+}
+.sz{
+  font-size:10px ;
 }
