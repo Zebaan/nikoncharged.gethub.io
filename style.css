@@ -1,0 +1,37 @@
+body {
+  background: url(https://images.pexels.com/photos/1595243/pexels-photo-1595243.jpeg?cs=srgb&dl=pexels-derice-jason-fahnkow-1595243.jpg&fm=jpg);
+   background-size:600px;
+   background-position:top;
+   color: white;
+   text-align: center;
+   align-items: center;
+   font-family: 'Bebas Neue', cursive;
+  font-family: 'Cinzel', serif;
+}
+.container {
+ padding-bottom: center;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+h3{
+  font-family: 'Dancing Script', cursive;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: #beccca;
+  transform: scale(1.5);
+}
